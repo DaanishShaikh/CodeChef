@@ -9,7 +9,7 @@ int main(){
     }
     for(int k= 0; k<t ; k++){
         if(a[k]+3<=10){
-            cout<<"YES"<<endl;
+            cout<<"YES"<<endl;        ///output yes
         }
         else{
             cout<<"NO"<<endl;
