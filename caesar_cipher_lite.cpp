@@ -27,23 +27,28 @@ int main(){
             }
             if(indp>indc){
                 moves=26-indp+indc;
+                // cout<<"moves="<<moves<<endl;
             }
-            if(indp<indc){
+            if(indp<=indc){
                 moves=indc-indp;
+                // cout<<"moves="<<moves<<endl;
             }
              if(moves%3==0){
                 cout<<moves/3<<' ';
             }
             else{
-            while(moves%3==0){
+            while(true){
                 moves+=26;
+                if(moves%3==0){
+                    break;
+                }
+                // cout<<"moves="<<moves<<endl;
             }
-            else{
-            moves/=3;
+            cout<<moves/3<<' ';
             }
             }
+            cout<<endl;
         }
-
-    }
     return 0;
-}
+    }
+    
