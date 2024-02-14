@@ -19,7 +19,7 @@ int main(){
         for(int i=0 ; i<n ; i++){
             for(int j=0 ; j<26 ; j++){
                 if(p[i]==caesarpair[j].first){
-                    indp=ceasarpair[j].second;
+                    indp=caesarpair[j].second;
                 }
                 if(c[i]==caesarpair[j].first){
                     indc=caesarpair[j].second;
@@ -31,10 +31,17 @@ int main(){
             if(indp<indc){
                 moves=indc-indp;
             }
+             if(moves%3==0){
+                cout<<moves/3<<' ';
+            }
+            else{
             while(moves%3==0){
                 moves+=26;
             }
+            else{
             moves/=3;
+            }
+            }
         }
 
     }
