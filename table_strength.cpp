@@ -13,12 +13,12 @@ int main(){
         // sort(a.begin(),a.end());
         // int avg1=0;
         // int maxw=a[n-1];
-        for(int i=0; i<n ; i++){
-            int sum=0 , count=0, j=n-1;
-            for( ; j<j-i; j--){
-                sum+=a[j];
-                count++;
-            }
+        // for(int i=0; i<n ; i++){
+        //     int sum=0 , count=0, j=n-1;
+        //     for( ; j<j-i; j--){
+        //         sum+=a[j];
+        //         count++;
+        //     }
             if(sum/count==a[j]){
                 maxw=max(a[j]*count,maxw);
             }
