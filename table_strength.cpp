@@ -19,10 +19,10 @@ int main(){
         //         sum+=a[j];
         //         count++;
         //     }
-            if(sum/count==a[j]){
-                maxw=max(a[j]*count,maxw);
-            }
-        }
+        //     if(sum/count==a[j]){
+        //         maxw=max(a[j]*count,maxw);
+        //     }
+        // }
         cout<<maxw<<endl;
         // if(avg1==a[n-2]&&avg2>a[n-1]){
         //     cout<<avg2<<endl;
