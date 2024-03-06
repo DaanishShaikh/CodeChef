@@ -6,10 +6,10 @@ int main(){
     while(tt--){
         int n;
         cin>>n;
-        vector<int>a(n);
-        for(int i=0 ; i<n ; i++){
-            cin>>a[i];
-        }
+        // vector<int>a(n);
+        // for(int i=0 ; i<n ; i++){
+        //     cin>>a[i];
+        // }
         sort(a.begin(),a.end());
         int avg1=0;
         int maxw=a[n-1];
