@@ -10,9 +10,9 @@ int main(){
         // for(int i=0 ; i<n ; i++){
         //     cin>>a[i];
         // }
-        sort(a.begin(),a.end());
-        int avg1=0;
-        int maxw=a[n-1];
+        // sort(a.begin(),a.end());
+        // int avg1=0;
+        // int maxw=a[n-1];
         for(int i=0; i<n ; i++){
             int sum=0 , count=0, j=n-1;
             for( ; j<j-i; j--){
