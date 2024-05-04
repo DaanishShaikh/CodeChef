@@ -20,7 +20,7 @@ void solve(){
     if(n+m>=11 && n>=4 && m>=4){
         sort(batsmen.begin(),batsmen.end());
         sort(bowlers.begin(),bowlers.end());
-        int ans=0;
+        long long ans=0;
         ans+=batsmen[n-1];
         //cout<<"ans="<<ans<<endl;
         ans+=batsmen[n-2];
